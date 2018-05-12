@@ -1,0 +1,22 @@
+{
+  "name": "hacker_model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hackerInfo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mocklee/CruzHacks-2019-Developer-Challenge.git"
+  },
+  "author": "Eric Mockler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mocklee/CruzHacks-2019-Developer-Challenge/issues"
+  },
+  "homepage": "https://github.com/mocklee/CruzHacks-2019-Developer-Challenge#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

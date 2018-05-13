@@ -1,9 +1,10 @@
-// Update with your config settings.
+// Database config for knex
 
 module.exports = {
 
   development: {
-    client: 'postgresql',
-    connection: 'postgres://localhost/hacker_models',
-  }
+    client: 'pg',
+    connection: 'postgres://localhost/hacker_models'
+  },
+  
 };

@@ -36,7 +36,16 @@ exports.seed = function(knex, Promise) {
         age: 18,
         attendedPreviously: false,
         previousHackathons: 2,
-        email: 'jhack@usc.edu',
+        email: 'jhack1@ucsc.edu',
+      },
+      {
+      name: 'Jane Hack',
+        school: 'UCSC',
+        major: 'Bioengineering',
+        age: 18,
+        attendedPreviously: false,
+        previousHackathons: 0,
+        email: 'jhack@ucsc.edu',
       }];
 
       return knex('hacker_models').insert(hackers);

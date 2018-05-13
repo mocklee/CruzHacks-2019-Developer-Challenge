@@ -11,7 +11,7 @@
 
 exports.up = function(knex, Promise) {
   return knex.schema.createTable('hacker_models', (table) => {
-      table.increments('id');
+      table.increments();
       table.text('name').notNullable();
       table.text('school');
       table.text('major');

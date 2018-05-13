@@ -84,7 +84,7 @@ function validUpdatedhackerInfo(hackerInfo) {
       return validUpdate;
 }
 
-// Create
+// C - Create
 router.post('/', (req, res, next) => { 
     if(Object.keys(req.body).length === 0) {
         next(new Error('No data submitted'));

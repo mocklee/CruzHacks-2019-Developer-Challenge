@@ -11,5 +11,13 @@ module.exports = {
 
     create(hackerInfo) {
         return knex('hacker_models').insert(hackerInfo, '*');
+    },
+
+    update(id, hackerInfo) {
+        return knex('hacker_models').where('id', id).update(hackerInfo, '*');
+    },
+
+    delete(id) {
+        return knex('hacker_models').where('id', id).del();
     }
 }
